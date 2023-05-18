@@ -3,7 +3,18 @@ body {
 }
 
 body h1{
+    display: inline-block;
     text-align: center;
+}
+
+img {
+    box-sizing: border-box;
+    display: block;
+    border: 3px solid salmon;
+    border-radius: 10px;
+    margin: 5px 0px;
+    width: 700px;
+    height: auto;
 }
 
 h1 {
@@ -11,6 +22,9 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 48px;
     color: brown;
+    padding: 8px;
+    border: 3px solid brown;
+    border-radius: 10px;
 }
 
 h3 {
@@ -22,6 +36,24 @@ h3 {
 p,
 li {
     color: chocolate;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
     
+}
+
+h3,
+p,
+li {
+    margin: 10px;
+    
+}
+
+div {
+    display: block;
+    background-color: bisque;
+    padding: 4px;
+    margin: 10px 0;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 700px;
 }
